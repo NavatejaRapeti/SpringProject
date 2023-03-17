@@ -22,7 +22,7 @@ public class StudentController
     public StudentController( @Qualifier("studentServiceImplMap") StudentService studentService )
     {
         this.studentService = studentService;
-        studentService.add(new Student("101",32 ,"manu","nagandla","Indian","Tngos",new Date()));
+        studentService.add(new Student("101",32 ,"nava","rapeti","Indian","Hello",new Date()));
         
        
     }
